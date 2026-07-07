@@ -1,0 +1,7 @@
+streamlit
+openai-whisper
+numpy
+soundfile
+librosa
+jiwer
+gTTS
