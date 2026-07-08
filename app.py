@@ -108,26 +108,42 @@ REPEAT_SENTENCE_BANK = [f"{s} {v}" for s in subjects for v in verbs][:100]
 while len(REPEAT_SENTENCE_BANK) < 100:
     REPEAT_SENTENCE_BANK.append(f"Please remember to submit your academic assignment before the deadline on Friday afternoon.")
 
-# 3. RETELL LECTURE BANK (100 Entries)
+# 3. RETELL LECTURE BANK (100 Entries Balanced Across General Academic Domains)
 LECTURE_TEMPLATE_BANK = [
     {
-        "topic": "Advanced MBR Filtration and Activated Sludge Dynamics",
-        "transcript": "Membrane Bioreactors, or MBRs, combine conventional biological treatment, like activated sludge, with membrane filtration. By replacing secondary clarifiers with microfiltration or ultrafiltration membranes, MBR systems achieve superior solid-liquid separation. This high filtration efficiency allows the bioreactor to operate at much higher mixed liquor suspended solids configurations, leading to a smaller footprint and exceptional effluent quality suitable for reclamation.",
-        "keywords": ["membrane", "bioreactor", "filtration", "sludge", "separation", "solid", "liquid", "effluent", "wastewater", "treatment"]
+        "topic": "The Industrial Revolution and Urbanization",
+        "transcript": "The shift from agrarian economies to industrial powerhouses during the late eighteenth century fundamentally altered human settlement patterns. As steam-powered factories centralized production in British cities, millions of agricultural workers migrated from rural villages to urban centers searching for employment. This unprecedented influx led to rapid city growth, structural housing shortages, and the urgent development of early public municipal infrastructure.",
+        "keywords": ["industrial", "revolution", "urbanization", "factories", "migrated", "cities", "rural", "infrastructure", "production", "growth"]
     },
     {
-        "topic": "SCADA Frameworks and Renewable Grid Optimization",
-        "transcript": "Transitioning modern electrical networks to renewable infrastructure presents steep engineering hurdles. Unlike steady coal or natural gas thermal generation, solar and wind yields are inherently intermittent due to shifting weather patterns. To stabilize grid frequencies and prevent blackouts, utility operators are deploying massive utility-scale lithium-ion battery storage arrays alongside advanced SCADA automation tools to dynamic-balance load distribution changes.",
-        "keywords": ["renewable", "energy", "grid", "intermittent", "solar", "wind", "battery", "storage", "scada", "automation"]
+        "topic": "Cognitive Dissonance in Behavioral Psychology",
+        "transcript": "Cognitive dissonance occurs when an individual holds two psychologically contradictory beliefs or values simultaneously. This internal inconsistency creates significant mental discomfort, motivating the person to justify, alter, or minimize one of the beliefs to restore internal harmony. Psychological experiments demonstrate that people will actively avoid contradictory information to protect their established self-concept.",
+        "keywords": ["cognitive", "dissonance", "psychology", "beliefs", "discomfort", "harmony", "contradictory", "internal", "behavioral"]
+    },
+    {
+        "topic": "The Globalization of Trade and Shipping Containers",
+        "transcript": "Modern global trade was completely revolutionized not by trade treaties, but by the humble invention of the standardized steel shipping container. Prior to containerization, cargo handling was a highly labor-intensive, slow process prone to theft and damage at commercial ports. The uniform dimensions of modern containers allowed seamless, mechanized transit between cargo ships, commercial trains, and cross-country trucks, driving international shipping costs down dramatically.",
+        "keywords": ["global", "trade", "shipping", "container", "containerization", "cargo", "ports", "mechanized", "transit", "costs"]
+    },
+    {
+        "topic": "The Biological Mechanics of Deep Sleep",
+        "transcript": "Sleep architecture is divided into distinct stages, but slow-wave deep sleep is critical for physical restoration and cognitive health. During this stage, the brain clears out metabolic waste products that accumulate throughout waking hours while consolidating long-term declarative memories. Simultaneously, the endocrine system releases growth hormones to facilitate cellular repair and immune system regulation.",
+        "keywords": ["sleep", "deep", "brain", "metabolic", "waste", "memories", "hormones", "restoration", "cognitive", "cellular"]
+    },
+    {
+        "topic": "The History of Gutenberg's Printing Press",
+        "transcript": "Johannes Gutenberg's introduction of movable type printing to Europe in the fifteenth century is widely considered a pivotal turning point in human civilization. Before this innovation, books were painstakingly hand-copied by scribes, rendering literature an exclusive luxury for elite institutions. The mass production of printed texts democratized access to information, accelerated the scientific revolution, and unified diverse regional languages.",
+        "keywords": ["gutenberg", "printing", "press", "movable", "type", "scribes", "mass", "production", "information", "revolution"]
     }
 ]
-# Procedural Matrix Replication for Lecture Module
+
+# Procedural Matrix Replication for Lecture Module (Ensuring exactly 100 variations)
 LECTURE_BANK = []
 for i in range(100):
     base = LECTURE_TEMPLATE_BANK[i % len(LECTURE_TEMPLATE_BANK)]
     LECTURE_BANK.append({
-        "topic": f"Iteration Layer {i+1}: {base['topic']}",
-        "transcript": f"In this lecture series segment, we look at how {base['transcript'].lower()}",
+        "topic": f"Exam Track #{i+1:03d}: {base['topic']}",
+        "transcript": f"Good morning everyone. Today we are exploring how {base['transcript'].lower()}",
         "keywords": base["keywords"]
     })
 
@@ -378,21 +394,42 @@ elif module_choice == "Retell Lecture":
             else:
                 st.warning("Missing high-weight conceptual tags.")
 
-# MODULE 4: RESPOND TO A SITUATION
+# ==========================================
+# --- MODULE 4: RESPOND TO A SITUATION ---
+# ==========================================
 elif module_choice == "Respond to a Situation":
     if "current_situation" not in st.session_state:
         st.session_state.current_situation = random.choice(SITUATION_BANK)
 
-    st.markdown('<div class="card-container"><h4>📋 Instructions</h4><p style="color:#495057;">Review the scenario constraints. Provide a pragmatic and linguistically appropriate spoken answer to the problem.</p></div>', unsafe_allow_html=True)
+    st.markdown('<div class="card-container"><h4>📋 Instructions</h4><p style="color:#495057;">Listen to the scenario context below, or read the constraints. Provide a pragmatic and linguistically appropriate spoken answer to the problem.</p></div>', unsafe_allow_html=True)
+    
+    # Render Scenario Details inside premium containers
     st.info(f"**Scenario:** {st.session_state.current_situation['scenario']}")
     st.markdown(f"**Prompt Question:** *{st.session_state.current_situation['question']}*")
+    st.markdown("<br>", unsafe_allow_html=True)
     
-    if st.button("🔄 Next Scenario"):
-        st.session_state.current_situation = random.choice(SITUATION_BANK)
-        st.rerun()
+    # Touch-Friendly Control Row
+    col_act1, col_act2 = st.columns([1, 3])
+    with col_act1:
+        if st.button("🔊 Play Situation Audio", type="primary", use_container_width=True):
+            with st.spinner("Synthesizing prompt audio..."):
+                # Combine scenario and question for a complete narration experience
+                full_narration_text = f"{st.session_state.current_situation['scenario']} {st.session_state.current_situation['question']}"
+                st.session_state.situation_audio_bytes = get_audio_prompt_bytes(full_narration_text, tld='co.uk')
+
+    with col_act2:
+        if st.button("🔄 Next Scenario", use_container_width=True):
+            st.session_state.current_situation = random.choice(SITUATION_BANK)
+            if "situation_audio_bytes" in st.session_state: 
+                del st.session_state.situation_audio_bytes
+            st.rerun()
+
+    # Audio Player Output Anchor
+    if "situation_audio_bytes" in st.session_state:
+        st.audio(st.session_state.situation_audio_bytes, format="audio/mp3")
 
     st.markdown("---")
-    audio_recording = st.audio_input("Record resolution:")
+    audio_recording = st.audio_input("Record your spoken resolution:")
     
     if audio_recording:
         res = process_evaluation_pipeline(audio_recording, None, matched_keywords_bank=st.session_state.current_situation['keywords'], mode="keyword_match")
@@ -403,6 +440,10 @@ elif module_choice == "Respond to a Situation":
             m1.metric("Situational Logic Score", f"{overall}/90")
             m2.metric("Pragmatic Competence", f"{content}/90")
             m3.metric("Fluency Cadence", f"{fluency}/90")
+            
+            with st.expander("🔍 Response Transcript Evaluation", expanded=True):
+                st.write("**What the engine transcribed:**")
+                st.code(transcript)
 
 # MODULE 5: SUMMARIZE GROUP DISCUSSION
 elif module_choice == "Summarize Group Discussion":
