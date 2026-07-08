@@ -18,20 +18,47 @@ st.set_page_config(
     initial_sidebar_state="expanded"
 )
 
-# Custom Premium Styling
+# Custom Premium & Touch-Friendly Styling
 st.markdown("""
     <style>
     .main { background-color: #fcfcfd; }
     div[data-testid="stSidebarCollapseButton"] { padding-top: 20px; }
+    
+    /* --- Touch Friendly Button Overhauls --- */
     .stButton>button {
-        border-radius: 8px;
-        font-weight: 500;
-        transition: all 0.2s ease-in-out;
+        border-radius: 12px;
+        font-weight: 600;
+        font-size: 1.05rem !important;
+        padding: 0.75rem 1.5rem !important; /* Larger comfortable tapping target */
+        min-height: 48px !important;       /* Standard mobile touch target guideline */
+        width: 100%;                       /* Makes hitting targets significantly easier on phones */
+        transition: all 0.15s ease-in-out;
+        margin-bottom: 8px;
     }
-    .stButton>button:hover {
-        transform: translateY(-1px);
-        box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+    
+    /* Clear tap states for mobile responsive screens */
+    .stButton>button:active {
+        transform: scale(0.98);
+        background-color: #f0f2f6;
     }
+    
+    /* Focus state outlines for clean accessibility */
+    .stButton>button:focus:not(:focus-visible) {
+        outline: none;
+    }
+
+    /* Target Box optimization for mobile text selection */
+    .target-box {
+        background-color: #f8f9fa;
+        border-left: 5px solid #4A90E2;
+        padding: 20px;
+        border-radius: 4px 12px 12px 4px;
+        font-size: 1.15rem;
+        line-height: 1.6;
+        color: #212529;
+        margin-bottom: 15px;
+    }
+    
     .card-container {
         background-color: #ffffff;
         border: 1px solid #e9ecef;
@@ -39,15 +66,6 @@ st.markdown("""
         border-radius: 12px;
         box-shadow: 0 2px 4px rgba(0,0,0,0.02);
         margin-bottom: 20px;
-    }
-    .target-box {
-        background-color: #f8f9fa;
-        border-left: 5px solid #4A90E2;
-        padding: 16px;
-        border-radius: 4px 12px 12px 4px;
-        font-size: 1.1rem;
-        line-height: 1.6;
-        color: #212529;
     }
     </style>
 """, unsafe_allow_html=True)
