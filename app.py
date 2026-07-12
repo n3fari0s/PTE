@@ -1213,8 +1213,9 @@ elif module_choice == "Respond to a Situation":
 
 # MODULE 5: SUMMARIZE GROUP DISCUSSION
 elif module_choice == "Summarize Group Discussion":
+# Change this inside the Module 5 block:
     if "discussion_data" not in st.session_state:
-        st.session_state.discussion_data = generate_random_discussion()
+        st.session_state.discussion_data = random.choice(DISCUSSION_BANK)
 
     st.markdown(f'<div class="card-container"><h4>📋 Forum Topic: {st.session_state.discussion_data["topic"]}</h4><p style="color:#495057;">Listen to the conflicting arguments raised by the panel. Summarize the divergent positions and extract the final compromise framework.</p></div>', unsafe_allow_html=True)
     
@@ -1224,7 +1225,7 @@ elif module_choice == "Summarize Group Discussion":
             st.session_state.disc_bytes = get_audio_prompt_bytes(st.session_state.discussion_data['audio_script'], tld='co.uk')
     with cd2:
         if st.button("🔄 Roll New Argumentative Panel"):
-            st.session_state.discussion_data = generate_random_discussion()
+            st.session_state.discussion_data = random.choice(DISCUSSION_BANK)
             if "disc_bytes" in st.session_state: del st.session_state.disc_bytes
             st.rerun()
 
