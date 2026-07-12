@@ -715,255 +715,224 @@ SITUATION_BANK = [
 # ==============================================================================
 # Replacing the dynamic generator function with a static bank containing 50 completely unique multi-perspective scripts.
 DISCUSSION_BANK = [
+    # 1. Standardizing Campus Sustainable Infrastructure
     {
-        "topic": "High-Stakes Finals vs. Continuous Assessment",
-        "audio_script": "Speaker 1: Final exams are completely outdated. Having three finals on the same day causes intense stress, leading to pure temporary memorization rather than actual learning. Speaker 2: I agree. Standardized exams encourage cramming instead of long-term knowledge retention. I prefer cumulative research papers or hands-on projects. Speaker 3: Final exams serve a clear structural purpose. They force us to comprehensively review the entire semester's matrix of material, which creates a helpful sense of academic synthesis, closure, and self-discipline.",
-        "keywords": ["exams", "assessment", "cramming", "retention", "projects", "stress", "finals", "synthesis"]
+        "topic": "Standardizing Campus Sustainable Infrastructure",
+        "audio_script": (
+            "Speaker 1: If we are truly committed to combating climate change, the university needs to mandate that all new campus construction achieves net-zero emissions. We should immediately phase out all single-use plastics from dining halls, install solar arrays across every rooftop, and retrofit older brick dorms with smart HVAC systems to slash our carbon footprint. It is an ethical obligation to our student body. "
+            "Speaker 2: While the sentiment is noble, you are completely ignoring the massive financial reality of these retrofits. Total decarbonization requires tens of millions of dollars in upfront capital. If we sink all our liquid capital into premium green engineering, we will be forced to hike student tuition or cut back on vital departmental research grants. We cannot prioritize environmental optics over the actual affordability of education. "
+            "Speaker 3: There is a financially viable middle ground here if we leverage public-private partnerships. The university doesn't have to bear the brunt of the initial costs alone. We can sign long-term power purchase agreements with solar developers who install the panels at zero upfront cost to us, selling us cheaper clean energy over time. Simultaneously, we can implement low-cost, high-impact changes like composting programs and energy-efficient LED lighting upgrades before tackling massive structural overhauls."
+        ),
+        "keywords": ["sustainability", "infrastructure", "net-zero", "emissions", "tuition", "solar", "retrofits", "capital"]
     },
+    
+    # 2. Hard Deadlines vs. Flexible Grace Periods
     {
-        "topic": "Integrating Generative AI Tools into Research",
-        "audio_script": "Speaker 1: Using AI assistants for drafting literature reviews should be fully accepted. It speeds up the initial brainstorming process and helps structure scattered analytical thoughts. Speaker 2: That is a slippery slope. Over-relying on artificial intelligence compromises critical writing skills and increases the risk of plagiarism or hallucinated citations. Speaker 3: We can't just ban it. Universities should teach students how to treat AI as an interactive research companion, ensuring rigorous fact-checking frameworks are maintained.",
-        "keywords": ["artificial", "intelligence", "research", "plagiarism", "writing", "ethics", "brainstorming", "citations"]
+        "topic": "Hard Deadlines vs. Flexible Grace Periods",
+        "audio_script": (
+            "Speaker 1: Strict assignment deadlines are an outdated, counterproductive relic of rigid bureaucracy. The primary goal of higher education should be demonstrating mastery of the course material, not proving how well someone can manage a crisis under pressure. We need to implement a universal forty-eight-hour grace period for all major assignments to accommodate mental health struggles, sudden illnesses, or unexpected shifts in part-time work schedules. "
+            "Speaker 2: I strongly disagree because that approach coddles students and completely fails to prepare them for the realities of the professional workforce. In the corporate sector, a missed deadline can cost a company millions of dollars or break a legally binding contract. If we don't instill time-management skills and accountability right now, we are doing a massive disservice to everyone's career readiness. "
+            "Speaker 3: Both perspectives are valid, but we can structure a compromise through a tiered penalty system rather than a black-and-white policy. Let's keep a firm target deadline, but allow students a limited pool of 'tokens' per semester—say, three extension days—that they can use at their own discretion without needing a doctor's note. This maintains structural accountability while offering a realistic safety net for genuine emergencies."
+        ),
+        "keywords": ["deadlines", "grace-period", "accountability", "workforce", "flexibility", "extensions", "stress", "management"]
     },
+
+    # 3. Micro-Credentials vs. Traditional Four-Year Degrees
     {
-        "topic": "Mandatory Attendance Policies in Higher Education",
-        "audio_script": "Speaker 1: University students are adults paying tuition. If they can pass exams by reading textbook materials at home, mandatory attendance rules are patronizing. Speaker 2: But physical classroom presence drives collaboration. Without attendance grades, morning lecture halls would be empty, ruining seminar dynamics. Speaker 3: A hybrid model works best. Tie attendance to interactive seminars and laboratory modules, but leave massive theoretical lectures optional.",
-        "keywords": ["attendance", "mandatory", "tuition", "classroom", "seminars", "lectures", "hybrid", "grades"]
+        "topic": "Micro-Credentials vs. Traditional Four-Year Degrees",
+        "audio_script": (
+            "Speaker 1: Traditional four-year degree programs are becoming increasingly obsolete in today's rapidly evolving tech landscape. Students are spending tens of thousands of dollars on broad, filler general education courses when they could instead pursue targeted micro-credentials or specialized digital badges. Industry-recognized certifications in data analytics, cloud architecture, or digital marketing can be completed in six months and lead directly to high-paying jobs. "
+            "Speaker 2: That perspective reduces higher education down to mere trade school vocational training. A university education isn't just about learning a specific software tool that will be obsolete in five years; it is about developing deep critical thinking skills, historical context, philosophical grounding, and advanced written communication. Micro-credentials create narrow technicians, whereas a comprehensive degree cultivates well-rounded citizens and leaders. "
+            "Speaker 3: We shouldn't view these two pathways as mutually exclusive alternatives. The most forward-thinking solution is to embed micro-credentials directly into the traditional four-year curriculum. For instance, a student majoring in Business Administration or Communication should be able to earn official industry certifications as part of their standard elective coursework. This ensures they graduate with both the philosophical foundation of a degree and the immediate tactical skills demanded by recruiters."
+        ),
+        "keywords": ["micro-credentials", "degree", "certifications", "vocational", "curriculum", "employability", "skills", "education"]
     },
+
+    # 4. Standardizing Anonymized Grading Protocols
     {
-        "topic": "Replacing Physical Textbooks with Digital Access Scales",
-        "audio_script": "Speaker 1: Carrying heavy physical textbooks is an unnecessary burden when we can host every reading on a tablet or e-reader interface. Speaker 2: Digital screens increase eye strain and promote multitasking distractions. Studies prove reading text printed on paper yields superior retention. Speaker 3: Let's offer choices. Provide universal institutional digital licensing while maintaining a small library repository of print versions for checkout.",
-        "keywords": ["textbooks", "digital", "tablets", "screens", "retention", "print", "library", "licensing"]
+        "topic": "Standardizing Anonymized Grading Protocols",
+        "audio_script": (
+            "Speaker 1: To completely eliminate implicit bias from academic evaluations, universities must mandate completely anonymized grading across all departments. Professors and teaching assistants are human; they naturally develop positive or negative preconceptions about students based on classroom participation, personality clashes, gender, or race. Blind grading using student ID numbers ensures that an essay or exam is judged purely on its objective merits. "
+            "Speaker 2: Anonymizing everything completely destroys the vital relationship between a mentor and a student. Grading isn't just a clinical data-entry task; it is an ongoing formative conversation. If I don't know whose paper I am reading, I cannot tailor my feedback to a specific student's long-term trajectory, acknowledge how far they have progressed since the first week of class, or identify if a normally high-achieving student suddenly needs personal outreach. "
+            "Speaker 3: We can resolve this tension by splitting the assessment process into two distinct phases. Initial grading of high-stakes midterms, finals, and standardized essays can be done blindly using student identification numbers to ensure absolute equity and eliminate bias. However, once those baseline scores are locked in, professors should be unmasked so they can add personalized qualitative feedback and adjust final participation marks based on holistic growth."
+        ),
+        "keywords": ["grading", "anonymized", "bias", "equity", "feedback", "assessment", "evaluation", "blind-grading"]
     },
+
+    # 5. Overhauling the Academic Tenuring System
     {
-        "topic": "Funding STEM Fields vs. Humanities Departments",
-        "audio_script": "Speaker 1: University budgets must prioritize STEM fields because engineering and biotech directly drive technological breakthroughs and high-paying jobs. Speaker 2: Neglecting the humanities reduces our capacity for ethical analysis and cultural literacy. A society with advanced tech but no historical perspective is dangerous. Speaker 3: The solution is interdisciplinary funding. We should sponsor cross-department programs that integrate ethical philosophy with software development.",
-        "keywords": ["funding", "stem", "humanities", "budgets", "tech", "ethics", "interdisciplinary", "departments"]
+        "topic": "Overhauling the Academic Tenuring System",
+        "audio_script": (
+            "Speaker 1: The current academic tenure system has created an insular, unaccountable class of professors who are completely disconnected from teaching quality. Once an academic secures tenure, they have lifetime job security, which often leads to complacency, outdated lectures, and a total lack of responsiveness to student needs. It prevents younger, passionate, and more diverse adjunct instructors from securing stable employment. "
+            "Speaker 2: You are fundamentally misunderstanding the entire purpose of tenure. It was never designed to be a reward for complacency; it is a vital shield for academic freedom. Without the absolute protection of tenure, professors could be instantly fired by university administrators or targeted by political special interest groups for conducting controversial research, questioning institutional policies, or teaching challenging historical realities. "
+            "Speaker 3: Instead of completely abolishing tenure, we need to introduce rigorous post-tenure review processes every five years. These reviews should hold tenured faculty accountable to modern teaching standards and institutional contributions while firmly preserving their core protection against ideological censorship. If a professor consistently fails their peer evaluations and refuses to update their curriculum, there must be clear remediation frameworks or phased retirement pathways."
+        ),
+        "keywords": ["tenure", "professors", "academic-freedom", "security", "accountability", "evaluations", "adjunct", "censorship"]
     },
+
+    # 6. Corporate Sponsorship of University Research Labs
     {
-        "topic": "Paid Campus Internships vs. Academic Course Credits",
-        "audio_script": "Speaker 1: Unpaid internships are exploitative. The university shouldn't allow companies to offer academic credit instead of wages for actual operational work. Speaker 2: Many small non-profits can't afford wages, but they offer incredible real-world mentorship and strategic career networking opportunities. Speaker 3: Let's set a dual standard. Corporate placements must pay competitive wages, while humanitarian placements can be subsidized by internal university grants.",
-        "keywords": ["internships", "credits", "unpaid", "exploitative", "wages", "mentorship", "corporate", "grants"]
+        "topic": "Corporate Sponsorship of University Research Labs",
+        "audio_script": (
+            "Speaker 1: Accepting massive corporate sponsorships for university research labs is a direct threat to scientific integrity. When pharmaceutical, energy, or tech conglomerates fund academic research, they quietly steer the scientific agenda toward commercial viability rather than pure public good. It creates a massive conflict of interest where researchers feel pressured to suppress negative data to secure their next round of funding. "
+            "Speaker 2: That is a highly cynical view that ignores the reality of modern research funding. Government grants from organizations like the NSF are fiercely competitive and shrinking every single year. Without private corporate investment, groundbreaking research in cancer therapies, renewable batteries, and quantum computing would completely grind to a halt. These partnerships fast-track innovations from the lab bench directly to real-world deployment. "
+            "Speaker 3: The key to resolving this is establishing rigid, non-negotiable firewall policies between the corporate funders and the academic researchers. Corporations should be allowed to provide financial grants, but they must sign ironclad agreements that grant university scientists absolute autonomy over data collection, experimental design, and the unconditional right to publish all findings, regardless of whether the results favor the sponsor's bottom line."
+        ),
+        "keywords": ["sponsorship", "funding", "corporate", "research", "integrity", "conflict", "grants", "autonomy"]
     },
+
+    # 7. Mandatory General Education Core Curriculums
     {
-        "topic": "The Shift Toward Completely Open-Access Research Journals",
-        "audio_script": "Speaker 1: Academic knowledge shouldn't sit behind expensive publisher paywalls. All research funded by public tax money must be completely open-access. Speaker 2: Top-tier journals charge high fees to maintain rigorous peer-review panels and professional editorial standards that filter out junk science. Speaker 3: The university library can cover processing fees for internal faculty, ensuring their outputs are public while supporting journal quality.",
-        "keywords": ["journals", "open-access", "paywalls", "peer-review", "publishing", "library", "fees", "science"]
+        "topic": "Mandatory General Education Core Curriculums",
+        "audio_script": (
+            "Speaker 1: Forcing engineering or computer science majors to take mandatory general education classes in medieval history or poetry is an absolute waste of time and money. Students are paying exorbitant tuition rates to gain specialized technical expertise. Every single credit hour spent on subjects entirely unrelated to their major delays their graduation and adds unnecessary student loan debt. "
+            "Speaker 2: I completely disagree with that transactional view of higher education. The ultimate goal of a university is to graduate informed citizens, not highly specialized cogs for the corporate machine. Exposure to the arts, history, and social sciences teaches students how to reason ethically, appreciate diversity, and understand the societal impacts of the technologies they will eventually build. A software engineer who has never studied ethics is a liability. "
+            "Speaker 3: The solution lies in redefining how general education is structured. Instead of forcing STEM students into highly abstract, disconnected humanities courses, we should design contextualized core classes. For example, rather than a generic philosophy class, offer a course dedicated specifically to the Ethics of Artificial Intelligence, or a history course focused on the Evolution of Industrial Technology. This bridges the gap effectively."
+        ),
+        "keywords": ["curriculum", "general-education", "humanities", "stem", "tuition", "ethics", "credits", "interdisciplinary"]
     },
+
+    # 8. Banning vs. Embracing Greek Life Institutions
     {
-        "topic": "Implementing Anonymous Grading Systems",
-        "audio_script": "Speaker 1: Professors should only see student ID numbers when grading papers to eliminate unconscious gender, racial, or personal favoritism biases. Speaker 2: Blind grading removes a teacher's ability to evaluate individual student improvement and provide tailored feedback based on their trajectory. Speaker 3: We should use anonymous grading for high-stakes midterm and final essays, but keep open grading for small weekly assignments.",
-        "keywords": ["grading", "anonymous", "bias", "id", "feedback", "essays", "assignments", "blind"]
+        "topic": "Banning vs. Embracing Greek Life Institutions",
+        "audio_script": (
+            "Speaker 1: Fraternities and sororities have become toxic institutions that place an immense liability on modern universities. Year after year, we see systemic issues involving dangerous hazing rituals, substance abuse, exclusionary demographic barriers, and behavioral misconduct. The culture is fundamentally exclusionary and outdated, and the university should take a courageous stand by completely banning Greek life from campus. "
+            "Speaker 2: Banning Greek life entirely would destroy some of the most vibrant, supportive, and philanthropic communities on campus. Fraternities and sororities provide a profound sense of belonging, leadership development opportunities, and massive charitable fundraising campaigns for local communities. Furthermore, the alumni networks built within these houses provide students with invaluable career mentoring and job placements after graduation. "
+            "Speaker 3: Total abolishment will only drive these groups off-campus and underground, completely removing them from university oversight and making them far more dangerous. The rational approach is to enforce strict institutional regulation. We should mandate live-in adult housing directors, require absolute financial transparency, eliminate pledgeship periods entirely, and hold individual chapters legally and academically accountable for any behavioral infractions."
+        ),
+        "keywords": ["greek-life", "fraternities", "sororities", "hazing", "philanthropy", "alumni", "regulation", "accountability"]
     },
+
+    # 9. Restructuring the Format of Academic Conferences
     {
-        "topic": "Banning Single-Use Plastics Across Campus Cafeterias",
-        "audio_script": "Speaker 1: The university needs to ban all plastic water bottles and disposable containers to meet its environmental sustainability goals. Speaker 2: Eliminating plastics completely will slow down service lines and increase operating costs by forcing the use of expensive compostables. Speaker 3: We can phase it in. Offer financial discounts to students who bring reusable cups while adding container recycling stations.",
-        "keywords": ["plastics", "sustainability", "ban", "cafeterias", "costs", "compostables", "reusable", "discounts"]
+        "topic": "Restructuring the Format of Academic Conferences",
+        "audio_script": (
+            "Speaker 1: The traditional format of academic conferences is incredibly elitist, environmentally destructive, and inefficient. Expecting international researchers to fly thousands of miles, spend thousands of dollars on hotels, and emit tons of carbon just to read a PowerPoint slide for twenty minutes is absurd. We need to permanently transition to fully virtual, open-access online conference models. "
+            "Speaker 2: Virtual conferences are an absolute disaster for actual academic collaboration and networking. The real value of a conference doesn't happen during the formal presentations; it happens during the spontaneous hallway conversations, the post-panel coffee breaks, and the casual dinners where collaborative research projects are born. You cannot replicate that human trust and connection through a Zoom screen. "
+            "Speaker 3: A permanent hybrid infrastructure is the only logical path forward. We should host localized, regional physical hubs for face-to-face networking, while seamlessly broadcasting all presentations globally via an interactive online platform. This allows junior scholars and researchers from underfunded international institutions to present their work remotely without financial strain, while still preserving physical spaces for collaborative networking."
+        ),
+        "keywords": ["conferences", "networking", "virtual", "hybrid", "carbon-footprint", "collaboration", "accessibility", "research"]
     },
+
+    # 10. The Legitimacy of Fully Online Degrees
     {
-        "topic": "Syllabus Design: Student Voice vs. Faculty Control",
-        "audio_script": "Speaker 1: Students should have a voice in selecting reading lists and assignment formats to ensure the curriculum aligns with their professional interests. Speaker 2: Faculty members spend decades mastering their disciplines. Allowing undergraduates to choose topics dilutes the rigorous foundational canon. Speaker 3: A fair middle ground is leaving seventy percent of the core syllabus fixed while letting students vote on specialized elective topics.",
-        "keywords": ["syllabus", "curriculum", "faculty", "students", "reading", "elective", "canon", "interests"]
+        "topic": "The Legitimacy of Fully Online Degrees",
+        "audio_script": (
+            "Speaker 1: Fully online degree programs are the greatest democratization of higher education in history. They allow non-traditional students, working parents, and international professionals to access elite university educations without abandoning their careers or uprooting their lives. With modern asynchronous platforms, online degrees are just as rigorous and valid as traditional on-campus variants. "
+            "Speaker 2: Online degrees are vastly inferior to the immersive, physical university experience. Sitting alone in a bedroom looking at prerecorded lectures completely strips away the rich, transformative social dynamics of campus life. Online students miss out on spontaneous debates, professor office hours, physical lab experiments, and the campus environment that forces personal growth. It turns education into a transactional commodity. "
+            "Speaker 3: The debate shouldn't be about whether online degrees are better or worse, but how we can optimize their delivery. We need to move away from isolated asynchronous models and implement highly synchronous, cohort-based online learning. By utilizing virtual reality lab spaces, mandatory real-time seminar discussions, and regional student meetups, we can capture the community essence of physical campuses while retaining digital flexibility."
+        ),
+        "keywords": ["online-degrees", "asynchronous", "democratization", "flexibility", "pedagogy", "campus-life", "synchronous", "isolation"]
     },
+
+    # 11. The Role of Standardized Testing in Admissions
     {
-        "topic": "The Value of Lectures vs. Flipping the Classroom",
-        "audio_script": "Speaker 1: Traditional lectures are inefficient passive listening exercises. We should record lectures for home viewing and use class time entirely for group problem-solving. Speaker 2: Flipped classrooms put too much burden on students at home, and many won't review the video material beforehand, ruining group work. Speaker 3: Let's split the hour. Deliver a compressed twenty-minute lecture core, followed by thirty minutes of interactive collaborative application.",
-        "keywords": ["lecture", "flipped", "classroom", "passive", "collaborative", "problem-solving", "video", "interactive"]
+        "topic": "The Role of Standardized Testing in Admissions",
+        "audio_script": (
+            "Speaker 1: Standardized tests like the SAT and GRE are deeply flawed metrics that primarily measure a student's socioeconomic privilege rather than their actual academic potential. Wealthy students can afford expensive private tutoring, test-prep courses, and multiple retakes, which artificially inflates their scores. Universities must adopt permanent test-blind policies to create a truly equitable admissions landscape. "
+            "Speaker 2: Abandoning standardized testing entirely forces admissions committees to rely heavily on high school grade point averages, which are notoriously subjective and plagued by rampant grade inflation. A straight-A average from an elite private school means something entirely different than one from an underfunded rural high school. Standardized tests provide the only uniform, objective national benchmark to identify brilliant students from obscure backgrounds. "
+            "Speaker 3: The most balanced approach is a holistic, test-optional policy paired with contextual scoring. Admissions offices should evaluate test scores strictly within the context of the student's high school environment. A score of 1300 from a student attending an underfunded school with zero AP classes is arguably more impressive than a 1500 from a student at a top-tier prep academy. Let's use the data as an indicator, not a gatekeeper."
+        ),
+        "keywords": ["admissions", "testing", "sat", "gre", "equity", "socioeconomic", "holistic", "benchmarks"]
     },
+
+    # 12. Establishing a Universal Campus Minimum Wage
     {
-        "topic": "Standardized Testing for Postgraduate Admissions",
-        "audio_script": "Speaker 1: Entrance exams like the GRE ensure a standardized benchmark for comparing international applicants fairly. Speaker 2: Standardized tests measure socioeconomic privilege and test-taking prep skills rather than raw research potential or academic dedication. Speaker 3: We should make testing optional, placing far more weight on letters of recommendation, portfolios, and past research experience.",
-        "keywords": ["testing", "admissions", "gre", "standardized", "benchmark", "optional", "portfolios", "applicants"]
+        "topic": "Establishing a Universal Campus Minimum Wage",
+        "audio_script": (
+            "Speaker 1: The university operates as a multi-million-dollar enterprise and has a moral obligation to pay all student workers a thriving, livable wage. Forcing student researchers, library assistants, and dining staff to work for federal minimum wage while tuition prices continuously skyrocket is exploitative. Establishing a twenty-dollar-an-hour campus minimum wage would dramatically reduce financial anxiety and academic burnout. "
+            "Speaker 2: If the university arbitrarily doubles the hourly wage for student workers, the money has to come from somewhere. It will inevitably trigger immediate budget cuts across other vital student services. Departments will be forced to slash the total number of student job openings by half, meaning fewer students will get any on-campus employment opportunities at all. It will inadvertently hurt the very population it aims to help. "
+            "Speaker 3: We can offset this financial strain by structuring campus employment as a formal component of financial aid packages through expanded Federal Work-Study subsidies. Additionally, we can prioritize wage increases specifically for high-stress or technical student roles, while offering non-monetary compensation—such as direct housing stipends or meal plan credits—for other positions, ensuring total student compensation increases sustainably."
+        ),
+        "keywords": ["wages", "minimum-wage", "employment", "budget", "financial-aid", "compensation", "exploitation", "burnout"]
     },
+
+    # 13. Overhauling Student Course Evaluation Metrics
     {
-        "topic": "University Housing: Mixed-Year vs. First-Year Dormitories",
-        "audio_script": "Speaker 1: Separating first-year students into dedicated dorms helps them bond and transition into campus social life together smoothly. Speaker 2: First-year dorms become chaotic echo chambers. Mixing freshmen with senior students provides natural mentorship and quieter living environments. Speaker 3: The best compromise is mixed-year residential buildings that feature dedicated quiet wings reserved exclusively for incoming freshmen.",
-        "keywords": ["housing", "dormitories", "freshmen", "seniors", "mentorship", "residential", "wings", "transition"]
+        "topic": "Overhauling Student Course Evaluation Metrics",
+        "audio_script": (
+            "Speaker 1: End-of-semester student course evaluations are incredibly toxic and statistically useless metrics. Peer-reviewed studies consistently demonstrate that these surveys are heavily influenced by gender bias, racial prejudice, and how leniently a professor grades, rather than actual teaching effectiveness. Universities must stop using these biased popularity contests to determine faculty promotions and raises. "
+            "Speaker 2: Students are the primary consumers of higher education, and their voices must matter. If we completely eliminate student evaluations, we remove the only anonymous channel students have to report disorganized professors, hostile classroom environments, or outdated teaching methodologies. Administrators need this direct feedback loop to hold faculty accountable for what actually happens inside the lecture hall. "
+            "Speaker 3: The solution is to significantly de-emphasize these subjective end-of-term surveys and replace them with a robust peer-review evaluation model. Faculty teaching quality should be assessed through random, in-person classroom observations by trained pedagogical experts, comprehensive portfolio reviews, and tracking long-term student performance metrics in subsequent, advanced courses. Student surveys should only be used for qualitative feedback."
+        ),
+        "keywords": ["evaluations", "bias", "faculty", "metrics", "accountability", "peer-review", "pedagogy", "feedback"]
     },
+
+    # 14. Mandating Open Educational Resources (OER)
     {
-        "topic": "Online Remote Laboratories vs. Physical Lab Work",
-        "audio_script": "Speaker 1: Virtual laboratory simulators allow students to rerun dangerous or expensive chemistry experiments endlessly at zero safety risk. Speaker 2: Online simulators can't replicate the physical tactile skills required to calibrate sensitive hardware or handle delicate glass pipettes. Speaker 3: Use simulators for pre-lab preparation quizzes, but require physical attendance for final experimental data collection runs.",
-        "keywords": ["laboratories", "simulators", "virtual", "tactile", "pipettes", "chemistry", "experiments", "safety"]
+        "topic": "Mandating Open Educational Resources (OER)",
+        "audio_script": (
+            "Speaker 1: Commercial textbook publishers are running an absolute racket, charging students hundreds of dollars for minor edition updates that change nothing but the page numbers. The university should officially mandate that all introductory undergraduate courses exclusively utilize Open Educational Resources. Free, peer-reviewed digital textbooks ensure that no student falls behind simply because they cannot afford the reading material. "
+            "Speaker 2: A blanket mandate on Open Educational Resources would severely compromise academic freedom and instructional quality. In highly specialized or rapidly evolving fields, open-source textbooks simply do not have the rigorous updates, high-quality interactive software, or extensive test banks that premium publishers provide. Professors must retain absolute authority to select the absolute best educational tools for their classrooms. "
+            "Speaker 3: We can build an incentive-based transition program rather than issuing a rigid administrative mandate. The university library can offer competitive grants to professors who take the time to curate, edit, or author high-quality open-source materials for their large-enrollment courses. This honors academic freedom while actively building a robust institutional repository of free textbooks to alleviate the student financial burden."
+        ),
+        "keywords": ["textbooks", "oer", "open-source", "publishers", "academic-freedom", "grants", "affordability", "curation"]
     },
+
+    # 15. The Value of Lecture Attendance Tracking Systems
     {
-        "topic": "The Purpose of Elective Modules",
-        "audio_script": "Speaker 1: Degree pathways should eliminate general education electives so students can focus entirely on core professional engineering courses. Speaker 2: Electives in philosophy or literature foster creative problem-solving and critical thinking skills that technical tracks ignore. Speaker 3: Let's offer contextual electives, like an ethics module specifically tailored for computer engineers and biotech scientists.",
-        "keywords": ["electives", "engineering", "humanities", "curriculum", "technical", "ethics", "breadth", "skills"]
+        "topic": "The Value of Lecture Attendance Tracking Systems",
+        "audio_script": (
+            "Speaker 1: Utilizing automated geofencing apps or bluetooth beacons to track student attendance in massive lecture halls is invasive and creepy. It creates a surveillance culture on campus that treats adult university students like untrusted children. If a student decides that reading the lecture slides at home is a better use of their time, they should have the autonomy to make that choice. "
+            "Speaker 2: The empirical data on this is absolute: consistent lecture attendance is the single highest predictor of academic success and student retention. When students stop showing up, they isolate themselves and their grades plummet. Attendance tracking apps are not about surveillance; they serve as an early-warning system that allows academic advisors to step in and support struggling students before they completely fail out. "
+            "Speaker 3: The technology itself isn't the problem; it is how the data is applied. Instead of tying automated attendance directly to grade penalties, which breeds deep resentment, we should use the tracking data strictly for internal diagnostics. If a student's attendance drops significantly, it should trigger an automated, supportive outreach from counseling or tutoring services to check on their well-being, keeping it helpful rather than punitive."
+        ),
+        "keywords": ["attendance", "tracking", "surveillance", "autonomy", "retention", "intervention", "data", "privacy"]
     },
+
+    # 16. Quantifying the Value of Legacy Admissions
     {
-        "topic": "Campus Security: CCTV Arrays vs. Privacy Rights",
-        "audio_script": "Speaker 1: Expanding high-definition CCTV camera coverage across all campus walkways is essential to prevent vandalism and ensure safety. Speaker 2: Blanketing public student areas with constant surveillance invades privacy rights and creates a culture of institutional mistrust. Speaker 3: Restrict cameras to main perimeter gates and building entrances, keeping green fields and social lounges surveillance-free.",
-        "keywords": ["security", "cctv", "cameras", "surveillance", "privacy", "safety", "trust", "perimeter"]
+        "topic": "Quantifying the Value of Legacy Admissions",
+        "audio_script": (
+            "Speaker 1: Legacy admissions policies—giving preferential treatment to applicants simply because their parents attended the same university—are fundamentally unfair and antithetical to meritocracy. It perpetuates systemic generational privilege and takes away highly competitive enrollment spots from brilliant, first-generation, and marginalized students who earned their way based purely on academic achievement. It is time to ban the practice. "
+            "Speaker 2: You are ignoring the massive financial ecosystem that sustains private and public universities alike. Legacy policies foster deep, multi-generational institutional loyalty. This loyalty directly drives the massive alumni donations that fund the university's endowment. Without those critical legacy donations, we wouldn't have the financial capital to build new research facilities or fund generous need-based scholarships for low-income students. "
+            "Speaker 3: We can retain alumni engagement without compromising our core admissions ethics by replacing the blunt legacy preference with a philanthropic matching framework. Legacy status shouldn't grant any baseline bonus points in the initial admissions review. Instead, if a legacy applicant meets the rigorous academic criteria entirely on their own merit, their enrollment could trigger a targeted alumni scholarship match for a first-generation student."
+        ),
+        "keywords": ["legacy", "admissions", "meritocracy", "donations", "endowment", "equity", "scholarships", "privilege"]
     },
+
+    # 17. The Commercialization of College Athletics
     {
-        "topic": "Group Project Assignments: Free Choice vs. Random Sorting",
-        "audio_script": "Speaker 1: Professors should let us choose our own group partners so we can work with reliable peers who share identical work ethics. Speaker 2: In real corporate careers, you never choose your coworkers. Random assignment builds critical adaptative communication skills. Speaker 3: Let students select their partners, but implement mandatory peer evaluation forms to penalize anyone who doesn't contribute fairly.",
-        "keywords": ["group", "projects", "partners", "random", "sorting", "coworkers", "communication", "evaluation"]
+        "topic": "The Commercialization of College Athletics",
+        "audio_script": (
+            "Speaker 1: College athletics have spiraled into an out-of-control commercial enterprise that completely overshadows the academic mission of higher education. Universities are spending hundreds of millions of dollars on luxury stadiums and multi-million-dollar coaches' salaries, while library budgets are slashed and adjunct professors face poverty wages. We need to drastically downscale athletic budgets and return to true amateurism. "
+            "Speaker 2: That perspective completely overlooks the fact that major athletic programs operate as massive revenue engines and the primary marketing tool for the entire university. A successful football or basketball team generates immense national media exposure, which leads to a massive surge in freshman applications, increased enrollment revenues, and major corporate partnerships that benefit the entire campus ecosystem, including academics. "
+            "Speaker 3: The real issue isn't the money itself, but the lack of institutional equity in how it is distributed. Now that students can profit from their Name, Image, and Likeness, we must mandate that a fixed percentage of all athletic media rights revenue be directly diverted into a central university endowment. This fund can be used exclusively to upgrade academic classrooms, subsidize student housing, and boost faculty salaries."
+        ),
+        "keywords": ["athletics", "commercialization", "revenue", "marketing", "budgets", "endowment", "nil", "academics"]
     },
+
+    # 18. Centralizing Institutional Review Boards (IRB)
     {
-        "topic": "Accelerated Two-Year Degrees vs. Traditional Four-Year Tracks",
-        "audio_script": "Speaker 1: Offering accelerated two-year bachelor degrees saves thousands in tuition and lets students enter the professional workforce much faster. Speaker 2: Cramming a full curriculum into two years eliminates summer internships, research assistanceships, and essential intellectual maturation time. Speaker 3: Reserve the two-year track for highly structured professional degrees, while keeping traditional four-year timelines for research tracks.",
-        "keywords": ["accelerated", "degrees", "tuition", "workforce", "internships", "curriculum", "timelines", "duration"]
+        "topic": "Centralizing Institutional Review Boards (IRB)",
+        "audio_script": (
+            "Speaker 1: The current campus Institutional Review Board process is a bureaucratic nightmare that stifles scientific progress. Waiting six to nine months for a hyper-conservative committee to review a completely harmless, low-risk survey or ethnographic interview delays critical graduate student research and causes us to lose competitive funding to international labs with faster turnaround times. "
+            "Speaker 2: The strict IRB process is the only thin line defending human research subjects from ethical violations and exploitation. History is filled with horrific examples of academic research causing profound psychological or social harm because scientists were moving too fast and lacked objective ethical oversight. The administrative delays are a very small, necessary price to pay for absolute moral accountability and legal protection. "
+            "Speaker 3: We can dramatically accelerate the timeline without weakening ethical standards by implementing a centralized, multi-tiered review structure. Low-risk research, such as anonymized public surveys or standard educational observations, should be automatically fast-tracked through an expedited digital review system within forty-eight hours. This allows the full IRB panel to focus their deep scrutiny exclusively on high-risk clinical or vulnerable population studies."
+        ),
+        "keywords": ["irb", "ethics", "research", "bureaucracy", "expedited", "oversight", "compliance", "protocols"]
     },
+
+    # 19. Banning Laptop Displays in Humanities Seminars
     {
-        "topic": "Sponsoring Varsity Sports vs. Academic Infrastructure",
-        "audio_script": "Speaker 1: Investing in massive campus stadiums and varsity athletics boosts school spirit, alumni donations, and national media profile. Speaker 2: Millions spent on coaching staff salaries could be better utilized to renovate decaying science labs and hire tenure-track faculty. Speaker 3: Athletics programs should generate their own revenue through ticket sales and corporate sponsorships without draining central academic funds.",
-        "keywords": ["athletics", "stadiums", "funding", "infrastructure", "donations", "faculty", "labs", "revenue"]
+        "topic": "Banning Laptop Displays in Humanities Seminars",
+        "audio_script": (
+            "Speaker 1: Professors should implement a strict, zero-tolerance ban on laptops and tablets during small humanities seminars. Digital screens create an absolute wall of distraction, with students constantly checking emails, browsing social media, or texting. It completely kills the focused eye contact, deep listening, and spontaneous intellectual engagement that are essential for high-level philosophical discussions. "
+            "Speaker 2: A blanket laptop ban is highly discriminatory and ignores modern accessibility needs. Many neurodivergent students, such as those with ADHD or dyslexia, rely heavily on digital devices for real-time note-taking, accessing digital readings, or using assistive screen-reading software. Forcing students to publicly disclose their disabilities just to get a special laptop exemption creates a humiliating classroom environment. "
+            "Speaker 3: We can foster an engaged classroom environment without resorting to exclusionary bans by establishing clear 'tech-free engagement zones.' The physical seating layout can be arranged so that the inner circle of the seminar is completely screen-free for active verbal debate, while the outer ring permits device usage for collaborative digital note-taking. This accommodates diverse learning styles while keeping human interaction central."
+        ),
+        "keywords": ["laptops", "distraction", "accessibility", "neurodiversity", "seminars", "engagement", "pedagogy", "screens"]
     },
+
+    # 20. Shifting to Quantitative Skill-Based Grading
     {
-        "topic": "The Academic Calendar: Semester vs. Quarter System",
-        "audio_script": "Speaker 1: The standard fifteen-week semester provides deep immersion into complex theoretical topics without constant exam pressures. Speaker 2: The ten-week quarter system allows students to explore a wider variety of elective subjects and recover faster if they fail a course. Speaker 3: Semesters fit heavy research and writing tracks perfectly, whereas intense fast-paced quarters suit dynamic business and technical fields.",
-        "keywords": ["calendar", "semester", "quarter", "immersion", "pressures", "electives", "failed", "duration"]
-    },
-    {
-        "topic": "Banning Laptops in Lecture Halls",
-        "audio_script": "Speaker 1: Professors should ban laptops during lectures because social media notifications distract the student and everyone sitting behind them. Speaker 2: Taking notes by hand is slow and inefficient for complex tech courses. Laptops are essential accessibility tools for many. Speaker 3: Designate the front rows as laptop-free zones for hand-written focus, while allowing screens in the back sections.",
-        "keywords": ["laptops", "ban", "lectures", "distractions", "notes", "accessibility", "screens", "zones"]
-    },
-    {
-        "topic": "Peer Review in Undergrad Research Journals",
-        "audio_script": "Speaker 1: Undergraduate journals should use blind student editors to judge submissions, providing great editing experience. Speaker 2: Undergraduates lack the deep subject expertise to verify methodology accuracy, increasing the risk of publishing flawed data. Speaker 3: Pair every student editor with a senior faculty mentor to oversee the final verification run before publication.",
-        "keywords": ["peer", "review", "journals", "undergraduate", "editors", "methodology", "faculty", "mentor"]
-    },
-    {
-        "topic": "Mandatory Foreign Language Graduation Prerequisites",
-        "audio_script": "Speaker 1: Requiring a foreign language is crucial for global career mobility and broad cultural empathy in our interconnected world. Speaker 2: For technical fields like computing, forcing two semesters of French or Spanish delays core engineering specialization. Speaker 3: Allow students to swap a spoken foreign tongue for a professional computer programming language track.",
-        "keywords": ["language", "prerequisites", "graduation", "global", "mobility", "engineering", "programming", "culture"]
-    },
-    {
-        "topic": "Open-Book vs. Closed-Book Examinations",
-        "audio_script": "Speaker 1: Open-book exams mimic the real world, where professional workers have instant access to data tables and documentation sheets. Speaker 2: Closed-book tests ensure students internalize core formulas and key terminology, which builds necessary rapid problem-solving reflexes. Speaker 3: Use closed-book format for fundamental entry-level concepts, but switch to open-book synthesis for advanced analysis modules.",
-        "keywords": ["exams", "open-book", "closed-book", "documentation", "formulas", "internalize", "synthesis", "memory"]
-    },
-    {
-        "topic": "University Consolidation: Merging Small Specialized Colleges",
-        "audio_script": "Speaker 1: Merging small arts and science colleges into large regional university networks saves massive administrative costs and expands resources. Speaker 2: Consolidations ruin the distinct identity, low student-teacher ratios, and tight-knit community feel that makes small colleges special. Speaker 3: Centralize operational backend overheads like IT and payroll, but maintain autonomous departmental cultures and localized campus names.",
-        "keywords": ["consolidation", "colleges", "merger", "costs", "identity", "ratios", "overhead", "autonomous"]
-    },
-    {
-        "topic": "Commercializing University Research Discoveries",
-        "audio_script": "Speaker 1: Universities should actively patent and commercialize internal lab discoveries to generate self-sustaining research funding streams. Speaker 2: Corporate profit incentives corrupt pure scientific inquiry, steering researchers away from vital long-term basic science toward quick commercial gains. Speaker 3: Establish independent spin-off companies for commercial application, keeping university labs dedicated to open, public-domain science.",
-        "keywords": ["commercialize", "patent", "funding", "corporate", "profit", "inquiry", "labs", "discoveries"]
-    },
-    {
-        "topic": "Weighing Student Evaluations for Professor Tenure",
-        "audio_script": "Speaker 1: End-of-course student evaluations provide direct feedback on a professor's teaching efficacy and classroom accessibility. Speaker 2: Evaluations often devolve into popularity contests, penalizing rigorous professors while rewarding easy graders who give low workloads. Speaker 3: Balance student feedback scores with annual peer evaluations conducted by experienced department heads who observe classes physically.",
-        "keywords": ["evaluations", "tenure", "professors", "feedback", "popularity", "graders", "peer", "observation"]
-    },
-    {
-        "topic": "Communal Dorm Bathrooms vs. Private Suites",
-        "audio_script": "Speaker 1: Communal bathrooms are cost-effective, maximize floor space, and force residents to interact, building strong dorm communities. Speaker 2: Private suite bathrooms offer necessary privacy, clean hygiene maintenance, and prevent early morning queues before lectures. Speaker 3: Offer communal configurations on freshman floors to save costs, while building suite-style units for upperclassmen who prioritize study privacy.",
-        "keywords": ["dorm", "bathrooms", "communal", "suites", "costs", "privacy", "hygiene", "residents"]
-    },
-    {
-        "topic": "Grade Inflation and Curved Scoring Matrices",
-        "audio_script": "Speaker 1: Grading on a strict bell curve prevents grade inflation and clearly distinguishes elite students from average performers. Speaker 2: Curved grading breeds a toxic, cutthroat classroom culture where classmates refuse to help each other out of fear of hurting their own score. Speaker 3: Use absolute criterion-referenced scoring matrices, where every student who hits the mastery bar gets an A, regardless of rank.",
-        "keywords": ["grading", "curve", "inflation", "bell", "toxic", "culture", "mastery", "criterion"]
-    },
-    {
-        "topic": "24-Hour Campus Library Access Policy",
-        "audio_script": "Speaker 1: The main library must stay open twenty-four hours to accommodate varied student work shifts and intense finals study weeks. Speaker 2: Keeping massive buildings open all night strains utility budgets and encourages unhealthy, sleep-deprived cramming behaviors. Speaker 3: Keep only the ground-floor study lounge open all night with automated security card access, closing the main book stacks at midnight.",
-        "keywords": ["library", "access", "open", "all-night", "budgets", "cramming", "sleep", "security"]
-    },
-    {
-        "topic": "Sponsoring Campus Greek Life and Fraternities",
-        "audio_script": "Speaker 1: Greek organizations build lifelong professional alumni connections and organize massive annual charity fundraising operations. Speaker 2: Fraternities frequently foster exclusionary cultures, hazardous hazing practices, and systemic behavioral problems that disrupt campus safety. Speaker 3: Enforce strict university oversight with immediate charter suspension penalties for violations, while supporting positive philanthropic events.",
-        "keywords": ["greek", "fraternities", "alumni", "charity", "hazing", "safety", "oversight", "philanthropic"]
-    },
-    {
-        "topic": "Virtual Reality in Historical Architecture Education",
-        "audio_script": "Speaker 1: Using VR headsets allows history students to walk through digital reconstructions of ancient Rome or classical Greece. Speaker 2: High-end VR rigs isolate students, cause motion sickness, and consume funding better spent on physical library books. Speaker 3: Build a dedicated VR laboratory room where small groups can complete guided architectural walkthroughs together as a supplement.",
-        "keywords": ["virtual", "reality", "vr", "architecture", "history", "funding", "laboratory", "walkthroughs"]
-    },
-    {
-        "topic": "Standardizing Coding Languages Across Computer Science Tracks",
-        "audio_script": "Speaker 1: The computer science department should teach all classes exclusively in Python due to its universal industry demand and simple syntax. Speaker 2: Students must learn low-level programming tongues like C++ to understand memory management mechanics and core hardware architecture. Speaker 3: Start freshmen out with Python to teach basic logic, then mandate C++ and Java for advanced software modules.",
-        "keywords": ["coding", "languages", "python", "syntax", "hardware", "architecture", "software", "computer"]
-    },
-    {
-        "topic": "The Requirement of a Formal Undergraduate Thesis",
-        "audio_script": "Speaker 1: Writing a mandatory final year thesis develops rigorous investigative methodologies and prepares students for graduate school pathways. Speaker 2: For undergraduates entering corporate jobs, a massive text essay is impractical compared to completing an applied industry portfolio project. Speaker 3: Allow students to select their capstone format: either a theoretical thesis track or a practical industry-partner project.",
-        "keywords": ["thesis", "undergraduate", "methodologies", "corporate", "portfolio", "project", "capstone", "theory"]
-    },
-    {
-        "topic": "Hosting Political Debates on Campus Grounds",
-        "audio_script": "Speaker 1: Universities must host diverse political speakers to foster robust civic debate and protect free speech principles. Speaker 2: Inviting controversial figures requires expensive security deployment and can cause protests that threaten campus safety. Speaker 3: Allow all student groups to invite speakers, but require them to secure event insurance to offset security costs.",
-        "keywords": ["speech", "political", "speakers", "debate", "security", "protests", "safety", "costs"]
-    },
-    {
-        "topic": "Mandatory Mental Health Screens for Freshmen",
-        "audio_script": "Speaker 1: Implementing universal mental health screening during freshman orientation helps identify vulnerable students before crises develop. Speaker 2: Forforcing mandatory psychological evaluations invades personal privacy and creates an immediate bureaucratic stigma for new students. Speaker 3: Make the screening assessment completely optional, but promote available counseling services heavily during orientation week.",
-        "keywords": ["mental", "health", "screening", "freshmen", "psychological", "privacy", "stigma", "counseling"]
-    },
-    {
-        "topic": "Replacing Cash on Campus with Biometric Payment Cards",
-        "audio_script": "Speaker 1: Moving campus stores to completely cashless biometric systems speeds up lunch lines and eliminates theft risks. Speaker 2: Cashless policies discriminate against low-income community visitors who lack bank accounts, while raising data privacy issues. Speaker 3: Maintain digital payment as the standard default line format, but keep one cash-friendly register active in the main dining hall.",
-        "keywords": ["cashless", "biometric", "payment", "stores", "theft", "privacy", "cash", "register"]
-    },
-    {
-        "topic": "Sponsoring Creative Writing Workshops vs. Analytical Essays",
-        "audio_script": "Speaker 1: Literature tracks should emphasize creative writing to cultivate organic voice, narrative talent, and structural artistic expression. Speaker 2: University outputs must prioritize rigorous analytical composition, as corporate environments value concise evidence-based arguments. Speaker 3: Blend the disciplines by teaching narrative nonfiction, which pairs creative structural voices with deep journalistic research.",
-        "keywords": ["writing", "creative", "analytical", "essays", "narrative", "composition", "corporate", "nonfiction"]
-    },
-    {
-        "topic": "The Feasibility of Year-Round University Operations",
-        "audio_script": "Speaker 1: Operating campuses year-round through three full equal terms maximizes classroom utilization and allows rapid graduation timelines. Speaker 2: Summer breaks are critical for faculty research windows, deep facilities maintenance cycles, and student seasonal employment. Speaker 3: Keep the traditional calendar layout, but expand the summer block optional elective courses list online.",
-        "keywords": ["year-round", "calendar", "terms", "graduation", "summer", "maintenance", "faculty", "research"]
-    },
-    {
-        "topic": "Banning Corporate Branding Across Campus Storefronts",
-        "audio_script": "Speaker 1: Universities should remove all corporate coffee chains and fast-food logos to protect the campus from commercial exploitation. Speaker 2: Known commercial brands provide reliable quality standards, student job opportunities, and generate substantial rental revenue for facilities. Speaker 3: Allow external franchises to lease space, provided they adhere to university sustainability and fair wage regulations.",
-        "keywords": ["branding", "corporate", "chains", "exploitation", "revenue", "franchises", "lease", "wage"]
-    },
-    {
-        "topic": "Universal Basic Income Simulations in Economics Seminars",
-        "audio_script": "Speaker 1: Economics labs should run large-scale digital software agent simulations to model the macroeconomic impacts of a universal basic income. Speaker 2: Simplified computer models cannot predict complex real-world human behavioral labor changes or inflationary supply shocks accurately. Speaker 3: Combine simulation data with empirical case studies from real-world regional pilot programs to ground the findings.",
-        "keywords": ["simulations", "economics", "ubi", "models", "labor", "inflationary", "empirical", "cases"]
-    },
-    {
-        "topic": "The Scale of Student-Run Honor Codes for Exams",
-        "audio_script": "Speaker 1: Implementing a student-policed honor code eliminates the need for invasive exam proctors and builds an ethical campus community culture. Speaker 2: Without active staff invigilators, cheating levels rise significantly due to academic performance pressures and peer protection logic. Speaker 3: Utilize honor codes for small take-home essays, but maintain strict human proctoring controls for high-stakes final certifications.",
-        "keywords": ["honor", "code", "exams", "proctors", "ethical", "cheating", "invigilators", "proctoring"]
-    },
-    {
-        "topic": "Sponsoring Study Abroad Programs vs. Local Internships",
-        "audio_script": "Speaker 1: Studying abroad offers irreplaceable cultural immersion, language fluency acceleration, and global perspective building opportunities. Speaker 2: International trips are expensive luxuries. Local internships provide tangible domestic professional networking links and immediate jobs. Speaker 3: Offer virtual global exchange projects that pair local students with international corporate teams to build global links affordably.",
-        "keywords": ["abroad", "study", "immersion", "internships", "networking", "jobs", "virtual", "exchange"]
-    },
-    {
-        "topic": "Mandatory Ethics Classes Across Data Science Majors",
-        "audio_script": "Speaker 1: All data science degrees must mandate algorithmic ethics modules to prevent engineers from constructing biased profiling software models. Speaker 2: Ethics courses are subjective and take up credit hours better used for advanced machine learning mathematics courses. Speaker 3: Integrate real-world ethical case studies directly into the core programming assignments rather than creating a separate seminar.",
-        "keywords": ["ethics", "data", "algorithmic", "science", "biases", "programming", "assignments", "case"]
-    },
-    {
-        "topic": "Replacing Traditional Grading Scales with Pass/Fail Formats",
-        "audio_script": "Speaker 1: Switching to pass-fail grading eliminates grade anxiety, allowing students to focus on genuine intellectual exploration. Speaker 2: Pass-fail models reduce student motivation and make it impossible for graduate school admission boards to judge academic excellence. Speaker 3: Use pass-fail grading exclusively for first-semester freshman introductory modules, then transition to traditional GPA letters.",
-        "keywords": ["pass-fail", "grading", "anxiety", "exploration", "motivation", "admissions", "freshman", "gpa"]
-    },
-    {
-        "topic": "Campus Dining: Standard Menus vs. Universal Vegan Defaults",
-        "audio_script": "Speaker 1: Making all campus dining halls default to vegan menus dramatically cuts institutional carbon prints and promotes health. Speaker 2: Imposing strict dietary limits alienates a huge portion of the student body and violates personal choice rights. Speaker 3: Keep diverse meat items available, but make the most affordable daily value meal option completely plant-based to incentivize green choices.",
-        "keywords": ["dining", "vegan", "default", "carbon", "dietary", "choice", "plant-based", "incentivize"]
-    },
-    {
-        "topic": "The Feasibility of Free Public Transit Subsidies for Students",
-        "audio_script": "Speaker 1: The university should negotiate free city transit access for all students to cut campus traffic congestion and carbon footprints. Speaker 2: Subsidizing universal transit passes requires raising student activity fees, which penalizes those who walk or bike to class. Speaker 3: Offer transit subsidies exclusively to off-campus students living beyond a three-mile radius from the main university quad.",
-        "keywords": ["transit", "transit-pass", "subsidies", "traffic", "congestion", "fees", "off-campus", "radius"]
-    },
-    {
-        "topic": "Sponsoring Tenure-Track Faculty vs. Adjunct Instructors",
-        "audio_script": "Speaker 1: Universities must hire more tenure-track faculty to secure long-term institutional stability and support deep academic research groups. Speaker 2: Adjunct professors offer incredible flexibility, cost savings, and bring current up-to-date industry experience directly into classrooms. Speaker 3: Maintain a core tenure track for theoretical foundational courses, while hiring industry adjuncts to teach specialized practical skills.",
-        "keywords": ["tenure", "faculty", "adjunct", "stability", "flexibility", "savings", "industry", "skills"]
-    },
-    {
-        "topic": "Implementing Specialized Career Co-Op Tracks",
-        "audio_script": "Speaker 1: Engineering majors should alternate semesters between academic classes and full-time paid professional industry co-op employment loops. Speaker 2: Co-op loops interrupt the learning momentum, extend graduation timelines by a year, and separate students from their social cohorts. Speaker 3: Make the co-op structure an optional specialty track, allowing career-focused students to select it while others graduate traditionally.",
-        "keywords": ["co-op", "engineering", "industry", "employment", "graduation", "timelines", "optional", "career"]
-    },
-    {
-        "topic": "Banning Smartwatches During In-Person Examinations",
-        "audio_script": "Speaker 1: Smartwatches must be banned from exam halls because students can easily hide text files or communicate via messaging apps. Speaker 2: Many rely on smartwatches for monitoring critical health vitals, and checking time is a standard tracking necessity during tests. Speaker 3: Ban all personal smartwatches, mount large digital clocks on the exam walls, and permit verified medical device exceptions.",
-        "keywords": ["smartwatches", "ban", "exam", "cheating", "messaging", "clocks", "medical", "devices"]
+        "topic": "Shifting to Quantitative Skill-Based Grading",
+        "audio_script": (
+            "Speaker 1: The traditional A-through-F grading system is an arbitrary, opaque metric that fails to communicate what a student actually knows. A student can get a 'C' in a chemistry course due to missed homework assignments, despite completely mastering the actual lab skills. We need to transition entirely to skill-based grading, where transcripts explicitly list specific, verified competencies achieved during the course. "
+            "Speaker 2: While skill-based transcripts sound nice in theory, they would create an absolute administrative nightmare for corporate recruiters and graduate school admissions committees. External institutions do not have the time to read through a detailed five-page portfolio of individual micro-competencies for every single applicant. The standard Grade Point Average provides a universally understood, highly efficient shorthand for academic capability. "
+            "Speaker 3: The optimal solution is a dual-layered transcript architecture. The front page of the official transcript can maintain the traditional, universally accepted letter grades and cumulative GPA to satisfy external gatekeepers and automated sorting algorithms. However, the reverse side can feature an interactive, verifiable digital portfolio detailing the specific technical skills and competencies mastered, blending efficiency with deep descriptive accuracy."
+        ),
+        "keywords": ["grading", "transcripts", "competencies", "gpa", "skills", "assessment", "metrics", "credentials"]
     }
 ]
 
